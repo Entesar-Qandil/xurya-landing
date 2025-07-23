@@ -3,18 +3,21 @@ body {
 }
 
 .main-wrapper {
-  background-color: #e0e0e0;
-  border-radius: 0;     /* لأنك طلبت يكون مربع */
-  padding: 24px;        /* زيديها من 10 أو 6 إلى 24 مثلاً */
+  background-color: #e5e5e5; /* رمادي أغمق شوي */
+  padding: 60px;
 }
 
 
 
 .main-white-box {
   background-color: #fff;
-  border-top-left-radius: 0px;
+  border-top-left-radius: 0;
   padding-top: 0;
+  max-width: 1200px;  /*  نحدّدله عرض */
+  margin: auto;       /*  نخليه بالنص */
+  box-shadow: 0 0 30px rgba(0,0,0,0.05); /* لمسة ظل اختياري */
 }
+
 
 .main-content {
   max-width: 1200px;
@@ -206,10 +209,13 @@ body {
   background-color: #ffffff;
 }
 
+
 .product-card {
   background-color: #fff;
   transition: all 0.3s ease;
+  height: 500px; /* أو أي قيمة بدك ياها */
 }
+
 
 .product-card:hover {
   transform: translateY(-4px);
