@@ -3,9 +3,12 @@ body {
 }
 
 .main-wrapper {
-  background-color: #e5e5e5; /* رمادي أغمق شوي */
-  padding: 60px;
+  background-color: #e5e5e5;
+  padding: 40px 40px;  /* 40px من فوق وتحت، 16 من الجوانب */
+  width: 100%;         /* يغطي كل الشاشة */
 }
+
+
 
 
 
@@ -13,14 +16,14 @@ body {
   background-color: #fff;
   border-top-left-radius: 0;
   padding-top: 0;
-  max-width: 1200px;  /*  نحدّدله عرض */
+  max-width: 1400px;  /*  نحدّدله عرض */
   margin: auto;       /*  نخليه بالنص */
   box-shadow: 0 0 30px rgba(0,0,0,0.05); /* لمسة ظل اختياري */
 }
 
 
 .main-content {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto;
 }
 
