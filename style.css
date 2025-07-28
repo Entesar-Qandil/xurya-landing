@@ -4,8 +4,8 @@ body {
 
 .main-wrapper {
   background-color: #e5e5e5;
-  padding: 40px 40px;  /* 40px من فوق وتحت، 16 من الجوانب */
-  width: 100%;         /* يغطي كل الشاشة */
+  padding: 40px 40px;  
+  width: 100%;        
 }
 
 
@@ -16,9 +16,9 @@ body {
   background-color: #fff;
   border-top-left-radius: 0;
   padding-top: 0;
-  max-width: 1400px;  /*  نحدّدله عرض */
-  margin: auto;       /*  نخليه بالنص */
-  box-shadow: 0 0 30px rgba(0,0,0,0.05); /* لمسة ظل اختياري */
+  max-width: 1400px;  
+  margin: auto;       
+  box-shadow: 0 0 30px rgba(0,0,0,0.05); 
 }
 
 
@@ -32,7 +32,7 @@ body {
   position: relative;
   overflow: hidden;
   border-top-left-radius: 60px;
-  margin: 0 20px; /* 👈 يضيف مسافة صغيرة من اليمين واليسار داخل البوكس */
+  margin: 0 20px; 
   border-radius: 40px;
 }
 
@@ -159,23 +159,23 @@ body {
   color: #000;
 }
 
-/* تأثير عند المرور */
+
 .brand-logo-wrapper:hover {
   background-color: white;
 }
 
 .brand-logo-wrapper:hover .logo-text {
-  color: #198754; /* أخضر Bootstrap */
+  color: #198754; 
 }
 
-/* نحذف أي تأثير على الصورة */
+
 .brand-logo-wrapper:hover img {
   filter: none !important;
 }
 
 
 
-/* القسم الجديد */
+
 .bg-light-gray {
   background-color: #f6f6f6;
 }
@@ -199,12 +199,12 @@ body {
   line-height: 1.4;
 }
 .custom-title {
-  font-size: 1.75rem; /* تقريبًا 28px */
+  font-size: 1.75rem; 
   line-height: 1.3;
 }
 
 .custom-subtitle {
-  font-size: 1.4rem; /* تقريبًا 22px */
+  font-size: 1.4rem; 
   line-height: 1.3;
   color: #6c757d;
 }
@@ -216,7 +216,7 @@ body {
 .product-card {
   background-color: #fff;
   transition: all 0.3s ease;
-  height: 500px; /* أو أي قيمة بدك ياها */
+  height: 500px; 
 }
 
 
@@ -225,12 +225,12 @@ body {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
 }
 .problem-line-1 {
-  font-size: 3rem;    /* ≈ 48px */
+  font-size: 3rem;    
   line-height: 1.3;
 }
 
 .problem-line-2 {
-  font-size: 3rem;    /* ≈ 48px */
+  font-size: 3rem;    
   line-height: 1.3;
 }
 .testimonials-section {
