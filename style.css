@@ -31,10 +31,13 @@ body {
   height: 90vh;
   position: relative;
   overflow: hidden;
-  border-top-left-radius: 60px;
-  margin: 0 20px; 
-  border-radius: 40px;
+  margin: 0 20px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 0;
 }
+
 
 .hero-bg {
   position: absolute;
@@ -53,7 +56,7 @@ body {
   -webkit-mask-size: 100% 100%;
   -webkit-mask-repeat: no-repeat;
   z-index: 1;
-  border-radius: 40px;
+  
 }
 
 .floating-card-custom {
@@ -65,8 +68,18 @@ body {
   width: 220px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   z-index: 3;
+  width: 200px;
+  height: auto;
+}
+.dots {
+  display: flex;
+  gap: 4px;
 }
 
+.dot {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 8px;
+}
 .floating-card-custom p {
   font-size: 0.9rem;
   line-height: 1.3;
