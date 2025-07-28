@@ -216,14 +216,33 @@ body {
 .product-card {
   background-color: #fff;
   transition: all 0.3s ease;
-  height: 500px; 
+  min-height: 180px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+   font-size: 1.1rem; 
 }
 
+.product-card small {
+  font-size: 0.95rem;
+}
+
+.product-card h6 {
+  font-size: 1.25rem; 
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+
+.product-card a {
+  font-size: 1rem;
+}
 
 .product-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
 }
+
 .problem-line-1 {
   font-size: 3rem;    
   line-height: 1.3;
